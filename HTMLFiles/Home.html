@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> home page</title>
+        <link href="../cssFiles/HomePage.css" rel="stylesheet">
+        <link rel="stylesheet" href="../cssFiles/all.css">
+    </head>
+    <body>
+        <div class="container">
+           <header>
+            <a href="Home.html" class="logo"><img src="../img/logo.jpg" width="70" height="40"></a>
+             <div class="mysearch">
+            <form> 
+                <label for="search"></label>
+                <!-- يبحث -->
+                <input class="search" type="search" placeholder="search">
+            </form>
+        </div>
+            <ul id="myNavBar">
+                <li><a href="Home.html" id="home">Home</a></li>
+                <li><a href="Login.html">Loge in</a></li>
+                <li><a href="Stars.html">history</a></li>
+                <li><a href="BlackHole.html">Black Hole</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="conatct.html">Contact</a></li>
+            </ul>
+
+            <div class="andr" id="0" onclick ='openclose();'><i class="fa-solid fa-bars" ></i></div>
+           </header>
+
+           <div class="slider">
+               <div class="slider-NO" id="slider-NO"></div>
+                 <a id="1" href="../img/thumbnail_photos/bansd.jpg"><img src="../img/thumbnail_photos/bansd.jpg" ></a>
+                 <a id="2" href="../img/thumbnail_photos/777064741.jpg"><img src="../img/thumbnail_photos/777064741.jpg" ></a>
+                 <a id="3" href="../img/thumbnail_photos/776368956.jpg"><img src="../img/thumbnail_photos/776368956.jpg" ></a>
+                 
+           </div>
+                 <div class="s-control">
+                     <span class="pre" id="pre">pre</span>
+                     <span class="ind" id="ind"><span></span></span>
+                     <span class="nex" id="nex">next</span>
+                 
+                 </div>
+                 <section class="sec1">
+           
+                 <div class="content">
+                 
+                  <div class="title" onclick='changePhoto("../img/123456789.jpg",this.id)' id="11">the Computer system</div>
+                  <hr width="95%">
+                  <div class="text">
+                      <h1 class="h1">The Computer system</h1>
+                      <div class="p item">
+                      <p >Central Processing Unit (CPU): Controls the operation of the computer and
+                        Performs its own data processing functions; It is often referred to simply as the processor.
+                        • Main memory: stores data.
+                        • I/O: Transfers data between the computer and its external environment.
+                        • Linking system: some of the mechanisms that provide communication
+                        Between the CPU, main memory and I/O. A common example of system linking
+                        Via a bus system, consisting of a number of conducting
+                        The wires to which all other components are connected There may be one or more of each of the aforementioned components.
+                        Traditionally, there has been just a single processor. In recent years, there has been
+                        increasing use of multiple processors in a single computer. Some design issues relating
+                        to multiple processors crop up and are discussed as the text proceeds; Part Five
+                        focuses on such computers.
+                        
+                        Each of these components will be examined in some detail in Part Two.
+                        However, for our purposes, the most interesting and in some ways the most complex
+                        component is the CPU. Its major structural components are as follows:
+                        
+                        • Control unit: Controls the operation of the CPU and hence the computer.
+                        
+                        • Arithmetic and logic unit (ALU): Performs the computer’s data processing
+                        functions.
+                        
+                        • Registers: Provides storage internal to the CPU.
+                        
+                        • CPU interconnection: Some mechanism that provides for communication
+                        among the control unit, ALU, and registers.
+                        
+                         Part Three covers these components, where we will see that complexity is added by
+                        the use of parallel and pipelined organizational techniques. Finally, there are several
+                        approaches to the implementation of the control unit; one common approach is
+                        a microprogrammed  implementation. In essence, a microprogrammed control unit
+                        operates by executing microinstructions that define the functionality of the control
+                        unit. With this approach, the structure of the control unit can be depicted, as in
+                        Figure 1.1. This structure is examined in Part Four.
+                        ..</p>
+                                </div>
+                  </div>
+                  <div class="imges item">
+                      <img src="../img/123456789.jpg" class="photo1">
+                </div>
+                <div id="myphoto" >
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/12.jpg" class="photos" id="12">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/13.jpg" class="photos" id="13">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/14.jpg" class="photos" id="14">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/01.png" class="photos" id="01">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/20.jpg" class="photos" id="20">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/27.jpg" class="photos" id="27">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/18.jpg" class="photos" id="18">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/24.jpg" class="photos" id="24">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/25.jpg" class="photos" id="25">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/26.jpg" class="photos" id="26">
+                </div>
+              </div>
+               
+        
+        </section>
+
+        <section id="nasaweb" >
+              <div id="d100" class="animation">
+                  <img src="../img/55332211.png" >
+                  <!-- الرسوم م المتحركتة -->
+              </div>
+              <div id="d101" class="animation">Just as the density of elements on memory chips has continued
+                to rise, so has the density of elements on processor chips. As time went on, more
+                and more elements were placed on each chip, so that fewer and fewer chips were
+                needed to construct a single computer processor.
+                
+                A breakthrough was achieved in 1971, when Intel developed its 4004. The
+                4004 was the first chip to contain all of the components of a CPU on a single chip:
+                The microprocessor was born.
+                
+                The 4004 can add two 4-bit numbers and can multiply only by repeated addition.
+                By today’s standards, the 4004 is hopelessly primitive, but it marked the beginning of
+                a continuing evolution of microprocessor capability and power.
+                
+                This evolution can be seen most easily in the number of bits that the processor
+                deals with at a time. There is no clear-cut measure of this, but perhaps the best measure
+                is the data bus width: the number of bits of data that can be brought into or sent
+                out of the processor at a time. Another measure is the number of bits in the accumulator
+                or in the set of general-purpose registers. Often, these measures coincide, but
+                not always. For example, a number of microprocessors were developed that operate
+                on 16-bit numbers in registers but can only read and write 8 bits at a time.
+                
+                The next major step in the evolution of the microprocessor was the introduction
+                in 1972 of the Intel 8008. This was the first 8-bit microprocessor and was almost twice
+                as complex as the 4004.
+                
+                Neither of these steps was to have the impact of the next major event: the introduction
+                in 1974 of the Intel 8080. This was the first general-purpose microprocessor.
+                Whereas the 4004 and the 8008 had been designed for specific applications, the 8080
+                was designed to be the CPU of a general-purpose microcomputer. Like the 8008, the
+                8080 is an 8-bit microprocessor. The 8080, however, is faster, has a richer instruction
+                set, and has a large addressing capability.
+                .</div> 
+              <div id="d102" class="animation">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus dicta qui velit quidem facilis veritatis facere maxime necessitatibus quos nisi doloremque nostrum recusandae, ullam, officia, accusamus amet expedita corporis. A iusto, eligendi odio praesentium sunt ducimus sapiente illo perferendis maiores mollitia voluptate ex nostrum culpa error, dolor quasi necessitatibus, molestiae similique reiciendis facilis voluptas? Repudiandae mollitia unde quia doloribus magnam totam, id corrupti inventore atque a ipsum consequuntur neque ducimus sint officia architecto, cum natus! Illo dolores soluta debitis hic totam. Illo ipsa laudantium alias magnam voluptatibus voluptates optio voluptate sapiente, laboriosam earum natus quis vero iste illum porro ratione sit qui amet autem libero. Soluta molestias architecto qui, ipsam esse ipsa autem veritatis tempore earum. Rerum veritatis tenetur ipsa doloremque quod nam placeat, officia laborum neque soluta. Officia, est optio! Vitae rerum saepe veniam earum animi velit pariatur tenetur facere ex aspernatur laudantium repudiandae blanditiis corporis modi eveniet quia, deserunt libero sunt repellendus ducimus ullam minus ratione beatae doloremque! Facere veritatis natus odio porro iure sint, optio fugiat exercitationem modi excepturi, dignissimos ex aliquam similique quos facilis, aliquid laborum assumenda culpa. Maxime amet expedita nihil velit nam? Esse, tempora eius. Cumque similique quod sed, totam labore eligendi quas. Enim!</div> 
+              <div id="d103" class="animation">About patriotism. (From the student: Hashid Mawanis)
+
+                Homeland is the most precious thing a person cherishes, as it is the cradle of his youth, the foothold of his steps, the hotbed of his childhood, the refuge of his old age, the source of his memories, the beacon of his life, the homeland of his fathers and grandfathers, and the refuge of his children and grandchildren (quoted).
+                
+                A person without a homeland is a person without identity, past, and future. We have no substitute for love for our homeland, the land of our ancestors and fathers, the land of goodness, blessing, giving and purity.
+                
+                Love of the homeland stems from pure faith in God Almighty and in the homeland. It is a true word in its meaning and structure. Homeland is a kiss on the forehead of the earth, and it is the place where we were born, we lived under its protection, we grew up on its land and under its sky, we ate from its bounties, drank from its waters, breathed its air and sought refuge in its embrace even if circumstances kept us away. Life is distracted from our dear homeland for one reason or another, and there is always something that attracts us to return to it. Our roots are firmly planted in its soil, and our belonging and loyalty to it never ends or fades, and as the poet said:
+                
+                My country, if I was busy living in it, my soul would challenge me to live in it
+                
+                Homeland is a word whose letters are simple, but it carries great meanings that words cannot encapsulate. It's not just a story told or words said in a nice way. Rather, it is one of the most beautiful blessings that God has bestowed upon us. Therefore, it is our duty, as children, to protect her, defend her, and give her the most precious things we have and work. With one hand to keep it safe and steady.
+                
+                Our feeling of love for the homeland is the feeling of a mother who takes care of her children, cares for them, and ensures their comfort. She is happy with what makes them happy, sad with what makes them sad, and pained by what hurts them. It always seeks to reunite them and ensure their cohesion and mutual support in times of hardship and prosperity, so that they support each other and help the strong and the weak, the old and the young, and to be brothers in love and cooperate in righteousness and piety in one homeland and on one land. And according to what he, may God’s prayers and peace be upon him, said: “The believer to the believer is like a solid building, one of which supports the other.”
+                
+                Homeland is a large, cohesive family with its children, whose warmth we enjoy. It is the shelter and place where we resort and feel safe, secure, reassured, free and reassured. It is the nucleus through which goodness and generosity spread to its children without exception or discrimination. The homeland is a great blessing, and our duty is to preserve its soil and land through interconnectedness, cohesion, and instilling noble values in the souls of its children. . My homeland is the homeland that embraces the past and the present, love that never stops, and giving that is inexhaustible.
+                
+                No two will disagree that harmony, love, altruism, and sacrifice are among the good qualities that God has given us so that we can coexist with others on the homeland. There is nothing higher, more beautiful, and more wonderful than love for the homeland, and nothing exceeds this cohesion between the homeland and its people. Homeland is a word that touched our souls and consciences before we were born. Our bodies live in it, and the leadership’s love for the people is the greatest evidence and strongest argument for this cohesion.</div>             
+        </section>
+        
+        <footer class="foot">
+         <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+        <div class="copyright">
+        <i class="fa-regular fa-copyright"></i>
+        
+        <span class="copyrighttext">2023/10/18 - Hashed Muwens - all copy right rserved </span>
+        
+        </div>
+        <div id="icon">
+            <i class="fa fa-map-marer"><span>sanaa</span></i>
+            <i class="fa fa-phone"><span>777064741</span></i>
+            <i class="fa fa-envelope-o"><span>hasdmwans4@gmail.com</span></i>
+        
+        
+          </div>
+        
+
+        </footer>
+    </div>
+    <script src="../JavascriptFile/homeJS.js"></script>
+</div>
+        </body>
+</html>

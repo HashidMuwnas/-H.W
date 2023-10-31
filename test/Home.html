@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> home page</title>
+        <link href="../cssFiles/HomePage.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+           <header>
+            <a href="Home.html" class="logo"><img src="../img/logo.jpg" width="70" height="40"></a>
+            <ul id="myNavBar">
+                <li><a href="Home.html" id="home">Home</a></li>
+                <li><a href="Login.html">Loge in</a></li>
+                <li><a href="Stars.html">history</a></li>
+                <li><a href="BlackHole.html">Black Hole</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="conatct.html">Contact</a></li>
+            </ul>
+            <!-- هذا تبع logo -->
+
+            <div class="andr" id="0" onclick ='openclose();'><img src="../img/1695990459449.png" alt="" width="40" height="40"></div>
+           </header>
+
+           <div class="slider">
+               <div class="slider-NO" id="slider-NO">slider NO</div>
+                 <a id="1" href="../img/thumbnail_photos/img/bansd.jpg"><img src="../img/thumbnail_photos/bansd.jpg" ></a>
+                 <a id="2" href="../img/thumbnail_photos/777064741.jpg"><img src="../img/thumbnail_photos/777064741.jpg" ></a>
+                 <a id="3" href="../img/thumbnail_photos/776368956.jpg"><img src="../img/thumbnail_photos/776368956.jpg" ></a>
+                 
+           </div>
+                 <div class="s-control">
+                     <span class="pre" id="pre">pre</span>
+                     <span class="ind" id="ind"></span>
+                     <span class="nex" id="nex">next</span>
+                 
+                 </div>
+          
+        
+        <section class="sec1">
+           
+              <div class="content">
+                 
+                  <div class="title" onclick='changePhoto("../img/123456789.jpg",this.id)' id="11">the Computer system</div>
+                  <hr width="95%">
+                  <div class="text">
+                      <h1 class="h1">The Computer system</h1>
+                      <div class="p item">
+                      <p >Central Processing Unit (CPU): Controls the operation of the computer and
+                        Performs its own data processing functions; It is often referred to simply as the processor.
+                       
+                        • Main memory: stores data.
+                       
+                        • I/O: Transfers data between the computer and its external environment.
+                       
+                        • Linking system: some of the mechanisms that provide communication
+                        Between the CPU, main memory and I/O. A common example of system linking
+                        Via a bus system, consisting of a number of conducting
+                        The wires to which all other components are connected.There may be one or more of each of the aforementioned components.
+                        Traditionally, there has been just a single processor. In recent years, there has been
+                        increasing use of multiple processors in a single computer. Some design issues relating
+                        to multiple processors crop up and are discussed as the text proceeds; Part Five
+                        focuses on such computers.
+                        
+                        Each of these components will be examined in some detail in Part Two.
+                        However, for our purposes, the most interesting and in some ways the most complex
+                        component is the CPU. Its major structural components are as follows:
+                        
+                        • Control unit: Controls the operation of the CPU and hence the computer.
+                        
+                        • Arithmetic and logic unit (ALU): Performs the computer’s data processing
+                        functions.
+                        
+                        • Registers: Provides storage internal to the CPU.
+                        
+                        • CPU interconnection: Some mechanism that provides for communication
+                        among the control unit, ALU, and registers.
+                        
+                         Part Three covers these components, where we will see that complexity is added by
+                        the use of parallel and pipelined organizational techniques. Finally, there are several
+                        approaches to the implementation of the control unit; one common approach is
+                        a microprogrammed  implementation. In essence, a microprogrammed control unit
+                        operates by executing microinstructions that define the functionality of the control
+                        unit. With this approach, the structure of the control unit can be depicted, as in
+                        Figure 1.1. This structure is examined in Part Four.
+                        </p>
+                                </div>
+                  </div>
+                  <div class="imges item">
+                      <img src="../img/123456789.jpg" class="photo1">
+                </div>
+                <div id="myphoto" >
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/12.jpg" class="photos" id="12">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/13.jpg" class="photos" id="13">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/14.jpg" class="photos" id="14">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/01.png" class="photos" id="01">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/20.jpg" class="photos" id="20">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/27.jpg" class="photos" id="27">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/18.jpg" class="photos" id="18">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/24.jpg" class="photos" id="24">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/25.jpg" class="photos" id="25">
+                    <img onclick='changePhoto(this.src,this.id)'; src="../img/The planets/26.jpg" class="photos" id="26">
+                </div>
+              </div>
+               
+        
+        </section>
+
+        <section id="nasaweb" >
+            <div id="nasatext">Just as the density of elements on memory chips has continued
+                to rise, so has the density of elements on processor chips. As time went on, more
+                and more elements were placed on each chip, so that fewer and fewer chips were
+                needed to construct a single computer processor.
+                
+                A breakthrough was achieved in 1971, when Intel developed its 4004. The
+                4004 was the first chip to contain all of the components of a CPU on a single chip:
+                The microprocessor was born.
+                
+                The 4004 can add two 4-bit numbers and can multiply only by repeated addition.
+                By today’s standards, the 4004 is hopelessly primitive, but it marked the beginning of
+                a continuing evolution of microprocessor capability and power.
+                
+                This evolution can be seen most easily in the number of bits that the processor
+                deals with at a time. There is no clear-cut measure of this, but perhaps the best measure
+                is the data bus width: the number of bits of data that can be brought into or sent
+                out of the processor at a time. Another measure is the number of bits in the accumulator
+                or in the set of general-purpose registers. Often, these measures coincide, but
+                not always. For example, a number of microprocessors were developed that operate
+                on 16-bit numbers in registers but can only read and write 8 bits at a time.
+                
+                The next major step in the evolution of the microprocessor was the introduction
+                in 1972 of the Intel 8008. This was the first 8-bit microprocessor and was almost twice
+                as complex as the 4004.
+                
+                Neither of these steps was to have the impact of the next major event: the introduction
+                in 1974 of the Intel 8080. This was the first general-purpose microprocessor.
+                Whereas the 4004 and the 8008 had been designed for specific applications, the 8080
+                was designed to be the CPU of a general-purpose microcomputer. Like the 8008, the
+                8080 is an 8-bit microprocessor. The 8080, however, is faster, has a richer instruction
+                set, and has a large addressing capability.
+                </div>
+         <iframe src="https://www.google.com/sky/" id="iframe"></iframe>
+        </section>
+        
+        <footer class="foot">
+            
+        </footer>
+    </div>
+    <script src="../JavascriptFile/homeJS.js"></script>
+</div>
+        </body>
+</html>

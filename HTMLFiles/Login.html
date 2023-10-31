@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> home page</title>
+        <link href="../cssFiles/LoginPage.css" rel="stylesheet">
+        <link rel="stylesheet" href="../cssFiles/all.css">
+    </head>
+    <body>
+        <div class="container">
+           <header>
+            <a href="Home.html" class="logo"><img src="../img/logo.jpg" width="70" height="40"></a>
+            <ul id="myNavBar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Login.html" id="login">Loge in</a></li>
+                <li><a href="Stars.html">history</a></li>
+                <li><a href="BlackHole.html">Black Hole</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="conatct.html">Contact</a></li>
+            </ul>
+
+            <div class="andr" id="0" onclick ='openclose();'><img src="../img/1695990459449.png" alt="" width="40" height="40"></div>
+           </header>
+
+        </header>
+        <section>
+          <div class="login">
+           <div class="login_form">
+              <div class="choice">
+                  <p id="log" onclick="activechoice(id)">login</p>
+                  <hr>
+                  <p id="reg" onclick="activechoice(id)">regist</p>
+                  
+              </div>
+              <div id="first"> 
+                   <form>
+                  <div class="input1">
+                  <label for="email"><i class="fa fa-user"></i></label>
+                  <input id="email" type="email" placeholder="enter your email" >
+                  </div>
+                  
+                  <div class="input2">
+                  <label for="password"><i class="fa fa-unlock-alt"></i></label>
+                  <input id="password" type="password" placeholder="enter your password">
+                 </div>
+                 
+                 <input id="submit"  type="submit" value="send">
+                  </form>
+              </div>
+              <div id="second">
+                  <form >
+                  <div class="input3">
+                  <label for="f-name">first name</label>
+                  <input id="f-name" type="text" placeholder="enter your first name">
+                  </div>
+                  <div class="input4">
+                  <label for="l-name">last name</label>
+                  <input id="l-name" type="text" placeholder="enter your last name">
+                  </div>
+                  <div class="input5">
+                  <label for="p-NO">age</label>
+                  <input id="p-NO" type="number" placeholder="enter your age">
+                  </div>
+                  <div class="input6">
+                  <label for="u-email">email</label>
+                  <input id="u-email" type="email" placeholder="make an valid email">
+                  </div>
+                  <div class="input 7">
+                  <label for="u-password">password</label>
+                  <input id="u-password" type="password" placeholder="contain symbols,uppercase,number">
+                  </div>
+                  <input id="send" type="submit" value="save">
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        </div>
+
+        <script src="../JavascriptFile/login.js"></script>
+
+        </body>
+</html>

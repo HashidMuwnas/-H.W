@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+body{
+    background-image: url('../img/لمواقع.jpg');
+   background-size:100%;
+   /* background-color: rgba(4, 4, 36, 0.959); */
+   /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* الخلفية */
+}
+.container{
+  
+    
+    width:100%;
+
+    
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(51, 51, 51, 0.568); */
+    height: 50px;
+    width:100%;
+    align-items: center;
+    padding-top: 5px;
+    background-color:#000011;
+    position:sticky;
+    top:0;
+    z-index: 2;
+}
+
+.logo{
+    margin-left:5px ;
+    margin-bottom: 2px;
+    
+ }
+.container ul{
+    list-style-type:none;
+    display: flex;
+}
+
+.container ul li{
+    margin:0 10px;
+text-align: center;
+    
+}
+
+
+#con{
+    display: inline-block;
+background-color: bisque;
+border-radius: 10px 10px 10px 10px;
+color: blueviolet;
+width: 80px;
+transition: 1s ease-in;
+}
+
+
+ 
+
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 80px;
+   
+    
+} 
+
+.andr{
+    width: 40px;
+    height: 40px;
+   background-color:white;
+   border-radius: 50%;
+    margin-right: 20px;
+    display: none;
+}
+
+
+ul a:hover{
+    background-color: #323232;
+    border-radius:10px ;
+}
+
+ul #con:hover{
+    border-bottom: none;
+}
+
+ul a:active{
+    border-radius: 5px;
+    background-color: rgb(195, 182, 207);
+}
+
+
+
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-form {
+    /* الطار الاسم */
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(39, 39, 113);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    resize: vertical;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+}
+
+.contact-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top:40px ;
+}
+
+.h2{
+    text-align: center;
+    background-color: blue;
+    border-radius: 7px;
+    display: inline-block;
+    margin: auto;
+
+}
+
+.icon{
+    /* هذا تخلي البرمج في الوسط */
+    display: flex;
+    flex-direction: column;
+    margin:15px auto ;
+    align-items: center; 
+    width: 50%;
+    background-color: #706c6c78;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px black;
+}
+.icon a{
+    width: 50%;
+    /* تكبير  */
+}
+
+.icon .fa-brands,.fa-regular{
+    font-size: 180px;
+    width: 240px;
+    margin: 15px;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    /* عملية التوازن */
+
+}
+
+
+.fa-facebook{
+    color: blue;
+    background-color: white;
+    
+}
+
+.fa-facebook:hover{
+  
+    box-shadow:0px 0px 10px  10px blue;
+    transform: scale(1.1);
+}
+
+
+.fa-twitter{
+    background-color: #00acee;
+
+}
+
+.fa-twitter:hover{
+    box-shadow:0px 0px 10px  10px #00acee;
+    transform: scale(1.1);
+
+}
+
+
+.fa-youtube{
+    color: red;
+    background-color: white;
+    
+}
+
+.fa-youtube:hover{
+    box-shadow:0px 0px 10px  10px red;
+    transform: scale(1.1);
+}
+
+.fa-whatsapp{
+    background-color: #25d366;
+    
+}
+
+.fa-whatsapp:hover{
+    box-shadow:0px 0px 10px  10px #25d366;
+    transform: scale(1.1);
+}
+
+.fa-google-plus-g{
+    background-color: #db4437;
+    
+}
+
+.fa-google-plus-g:hover{
+    box-shadow:0px 0px 10px  10px #db4437;
+    transform: scale(1.1);
+}
+
+
+.fa-tiktok{
+    text-shadow: 5px 5px #fe2c55,-5px -5px #25f4ee;
+    background-color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fa-tiktok:hover{
+    box-shadow:10px 7px 10px  10px #fe2c55,-7px -7px 10px  10px #25f4ee;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+@media screen and (max-width:850px){
+    body{
+    position: relative;
+    }
+
+    .andr{
+        display:block;
+    }
+
+
+    .icon .fa-brands,.fa-regular{
+        font-size: 80px;
+        width: 140px;
+      
+    
+    }
+
+    .fa-tiktok{
+        
+        height: 100px;
+        
+    }
+
+    header{
+        position:relative;
+        align-items:unset;
+        z-index: 3;
+
+        
+    }
+
+    #myNavBar{
+        list-style-type:none;
+        background-color: #323232;
+        width: 200px;
+        height: 100vh;
+        position: absolute;
+        display:none;
+        flex-direction: column;
+        left:0;
+        
+        
+        
+    }
+
+    #con{
+    display:block;
+    border-radius: 0;
+    background-color: bisque;
+    color: blueviolet;
+    width: 100%;
+    }
+
+    .container ul a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: 30px;
+        margin-top:10px ;
+        
+     
+    } 
+
+    .container ul li{
+        margin:0 10px;
+        text-align: center;
+        
+        
+    }
+
+  
+
+
+
+}
